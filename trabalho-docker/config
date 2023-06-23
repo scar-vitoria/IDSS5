@@ -1,0 +1,19 @@
+-- Docker Hub 
+
+docker pull scarletvitoria/img-scar
+
+-- Git Hub 
+
+https://github.com/scar-vitoria/IDSS5/tree/main/trabalho-docker
+
+-- Configuração da porta
+
+docker container run -p 8081:80 -d img-scar:1.0 
+
+-- Rodar na Web
+
+localhost:8081
+
+-- Imagem nginx
+
+docker pull wyveo/nginx-php-fpm
